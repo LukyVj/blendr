@@ -3,7 +3,7 @@
 // It do one thing, and it do it good. 
 
 document.addEventListener("DOMContentLoaded", function(event) { 
-  var jsonPath = '../data/blendr.json';
+  var jsonPath = 'data/blendr.json';
   var body = document.body;
 
   var scr = document.getElementsByClassName('screen');
