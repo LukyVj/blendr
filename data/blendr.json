@@ -1,0 +1,76 @@
+
+
+{
+  "project" : {
+    "name" : "blendr",
+    "description" : "create stunning websites using css blend modes"
+  },
+
+  "config" : {
+    "screenType" : "fullscreen",
+    "nbScreen" : 4
+  },
+
+  "pages" : {
+
+    "page_0" : {
+
+      "background" : {
+        "image" : "https://ununsplash.imgix.net/photo-1433650552684-d4004a945d6c?dpr=2&fit=crop&fm=jpg&h=650&q=75&w=950",
+        "color" : "#D17649",
+        "gradient" : "45deg, red, blue",
+        "repeat" : "no-repeat",
+        "size" : "cover",
+        "position" : "center center"
+      },
+
+      "blend" : "exclusion",
+      "filter" : "grayscale(100%)"
+    },
+
+    "page_1" : {
+
+      "background" : {
+        "image" : "images/217H.jpg",
+        "color" : "blue",
+        "gradient" : "45deg, yellow, rebeccapurple",
+        "repeat" : "no-repeat",
+        "size" : "cover",
+        "position" : "center center"
+      },
+
+      "blend" : "lighten",
+      "filter" : "grayscale(100%)"
+    },
+
+    "page_2" : {
+
+      "background" : {
+        "image" : "https://ununsplash.imgix.net/photo-1430916273432-273c2db881a0?dpr=2&fit=crop&fm=jpg&h=650&q=75&w=950",
+        "color" : "#3D7FA0",
+        "gradient" : false,
+        "repeat" : "no-repeat",
+        "size" : "cover",
+        "position" : "center center"
+      },
+
+      "blend" : "difference",
+      "filter" : "hue-rotate(100deg)"
+    },
+
+     "page_3" : {
+
+      "background" : {
+        "image" : "https://farm9.staticflickr.com/8071/8272210302_4f1e4c9977_o.jpg",
+        "color" : "green",
+        "gradient" : "to bottom right, #C04143, rebeccapurple",
+        "repeat" : "no-repeat",
+        "size" : "cover",
+        "position" : "center center"
+      },
+
+      "blend" : "lighten",
+      "filter" : "grayscale(100%)"
+    }
+  }
+}
